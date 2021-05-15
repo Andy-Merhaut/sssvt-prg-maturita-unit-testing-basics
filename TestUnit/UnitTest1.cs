@@ -35,7 +35,7 @@ namespace TestUnit
         {
             BasicMaths basicMaths = new BasicMaths();
             double result = basicMaths.Multiply(10, 10);
-            Assert.AreEqual(result, 100);
+            Assert.AreEqual(100, result);
         }
     }
 }
